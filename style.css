@@ -22,13 +22,14 @@ body{
 }
 
 .container{
-    position:relative;
-    z-index:2;
-    width:90%;
-    padding-top: 220px;
-    text-align:center;
-    color:#fff;
+    position: relative;
+    z-index: 2;
+    width: 90%;
+    max-width: 430px;
+    text-align: center;
+    color: #fff;
 
+    transform: translateY(180px);
 }
 
 h1{
