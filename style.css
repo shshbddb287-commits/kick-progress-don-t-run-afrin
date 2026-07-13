@@ -21,7 +21,12 @@ body{
     background:rgba(0,0,0,.45);
 }
 
-margin-top:180px;
+.buttons{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+    margin-top:220px;
+}
 
 h1{
     font-size:46px;
