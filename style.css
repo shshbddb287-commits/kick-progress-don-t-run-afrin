@@ -21,10 +21,14 @@ body{
     background:rgba(0,0,0,.45);
 }
 
-.buttons{
-    display:flex;
-    flex-direction:column;
-    gap:18px;
+.container{
+    position:relative;
+    z-index:2;
+    width:90%;
+    max-width:430px;
+    text-align:center;
+    color:#fff;
+
 }
 
 h1{
