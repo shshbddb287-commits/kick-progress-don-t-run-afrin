@@ -1,77 +1,110 @@
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Tahoma,sans-serif;
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Tahoma,sans-serif;
 }
 
 body{
-    direction:rtl;
-    min-height:100vh;
-    background:url("background.jpg") center center/cover no-repeat;
-    position:relative;
-    overflow:hidden;
+direction:rtl;
+min-height:100vh;
+background:url("background.jpg") center center/cover no-repeat;
+display:flex;
+justify-content:center;
+align-items:center;
+position:relative;
 }
 
 .overlay{
-    position:fixed;
-    inset:0;
-    background:rgba(0,0,0,.45);
-    z-index:1;
+position:fixed;
+inset:0;
+background:rgba(0,0,0,.45);
 }
 
 .container{
-    position:relative;
-    z-index:2;
-    width:90%;
-    max-width:430px;
-    margin:380px auto 0;
-    text-align:center;
-    color:#fff;
+position: relative;
+z-index: 2;
+width: 90%;
+max-width: 430px;
+text-align: center;
+color: #fff;
+
+transform: translateY(180px);
+
+}
+
+h1{
+font-size:46px;
+line-height:1.4;
+text-shadow:0 3px 10px rgba(0,0,0,.5);
+margin-bottom:25px;
+}
+
+.line{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:15px;
+margin-bottom:25px;
+}
+
+.line span{
+width:110px;
+height:2px;
+background:#d6b14b;
+}
+
+.line{
+color:#d6b14b;
+font-size:22px;
+}
+
+p{
+font-size:26px;
+line-height:1.8;
+margin-bottom:45px;
+text-shadow:0 2px 8px rgba(0,0,0,.5);
 }
 
 .buttons{
-    display:flex;
-    flex-direction:column;
-    gap:18px;
+display:flex;
+flex-direction:column;
+gap:18px;
+margin-top:80px;
 }
 
 .btn{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    width:100%;
-    padding:18px 24px;
-    border-radius:20px;
-    text-decoration:none;
-    font-size:22px;
-    font-weight:bold;
-    box-shadow:0 8px 20px rgba(0,0,0,.30);
-    transition:.3s;
-}
-
-.btn:hover{
-    transform:scale(1.03);
+display: flex;
+justify-content: space-between;
+align-items: center;
+text-decoration: none;
+width: 260px;
+padding: 14px 20px;
+border-radius: 18px;
+font-size: 20px;
+font-weight: bold;
+margin: 12px auto;
+box-shadow: 0 6px 15px rgba(0,0,0,.25);
 }
 
 .login{
-    background:#1f7d32;
-    color:#fff;
+background:#1f7d32;
+color:#fff;
 }
 
 .register{
-    background:#fff;
-    color:#1f7d32;
+background:#fff;
+color:#1f7d32;
 }
 
 .btn i{
-    font-size:28px;
+font-size:34px;
 }
 
 .skip{
-    display:inline-block;
-    margin-top:35px;
-    color:#fff;
-    font-size:22px;
-    text-decoration:underline;
+display:inline-block;
+margin-top:40px;
+color:#fff;
+font-size:26px;
+text-decoration:underline;
 }
