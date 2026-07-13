@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 
     <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
@@ -21,18 +21,35 @@
 
     <div class="buttons">
 
-        <input type="email" placeholder="البريد الإلكتروني"
-        style="padding:18px;border:none;border-radius:15px;font-size:20px;">
+        <input
+            id="email"
+            type="email"
+            placeholder="البريد الإلكتروني"
+            style="padding:18px;border:none;border-radius:15px;font-size:20px;">
 
-        <input type="password" placeholder="كلمة المرور"
-        style="padding:18px;border:none;border-radius:15px;font-size:20px;">
+        <br><br>
 
-        <a href="#" class="btn login">
+        <input
+            id="password"
+            type="password"
+            placeholder="كلمة المرور"
+            style="padding:18px;border:none;border-radius:15px;font-size:20px;">
+
+        <br><br>
+
+        <a href="#" id="loginBtn" class="btn login">
             <i class="fa-solid fa-right-to-bracket"></i>
             تسجيل الدخول
         </a>
 
-        <a href="index.html" class="btn register">
+        <a href="register.html" class="btn register">
+            <i class="fa-solid fa-user-plus"></i>
+            إنشاء حساب
+        </a>
+
+        <br><br>
+
+        <a href="index.html" class="btn">
             <i class="fa-solid fa-arrow-right"></i>
             رجوع
         </a>
@@ -41,6 +58,7 @@
 
 </div>
 
+<script type="module" src="firebase.js"></script>
+
 </body>
-    <script type="module" src="firebase.js"></script>
 </html>
