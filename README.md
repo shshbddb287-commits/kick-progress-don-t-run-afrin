@@ -1,1 +1,1 @@
-# kick-progress-don-t-run-afrin
+mae kirdu eifrin arbah bikuli suhulih
