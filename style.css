@@ -25,7 +25,7 @@ body{
     position:relative;
     z-index:2;
     width:90%;
-    max-width:430px;
+    padding-top: 220px;
     text-align:center;
     color:#fff;
 
