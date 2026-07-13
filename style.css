@@ -21,15 +21,7 @@ body{
     background:rgba(0,0,0,.45);
 }
 
-.container{
-    position:relative;
-    z-index:2;
-    width:90%;
-    max-width:430px;
-    text-align:center;
-    color:#fff;
-    margin-top:180px;
-}
+margin-top:180px;
 
 h1{
     font-size:46px;
