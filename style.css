@@ -67,6 +67,7 @@ p{
     display:flex;
     flex-direction:column;
     gap:18px;
+    margin-top:80px;
 }
 
 .btn{
